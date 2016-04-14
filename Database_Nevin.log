@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.3)  13 APR 2016 17:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.3)  14 APR 2016 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -404,10 +404,10 @@ File: tikzlibrarycalc.code.tex 2009/09/04 v2.10 (rcs-revision 1.6)
 \baposter@basemarginright=\skip67
 \baposter@basemarginleft=\skip68
 
-Paperwidth=3107.60999pt
-Paperheight=2392.13744pt
-BasePaperwidth=932.29247pt
-BasePaperheight=717.64853pt
+Paperwidth=2392.87677pt
+Paperheight=3383.03267pt
+BasePaperwidth=681.97864pt
+BasePaperheight=964.1767pt
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -688,15 +688,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: landscape 
-* h-part:(L,W,R)=(12.80386pt, 906.68474pt, 12.80386pt)
-* v-part:(T,H,B)=(12.80386pt, 692.0408pt, 12.80386pt)
-* \paperwidth=932.29247pt
-* \paperheight=717.64853pt
-* \textwidth=906.68474pt
-* \textheight=692.0408pt
-* \oddsidemargin=-59.46613pt
-* \evensidemargin=-59.46613pt
-* \topmargin=-96.46613pt
+* h-part:(L,W,R)=(12.1637pt, 939.8493pt, 12.1637pt)
+* v-part:(T,H,B)=(12.1637pt, 657.65125pt, 12.1637pt)
+* \paperwidth=964.1767pt
+* \paperheight=681.97864pt
+* \textwidth=939.8493pt
+* \textheight=657.65125pt
+* \oddsidemargin=-60.1063pt
+* \evensidemargin=-60.1063pt
+* \topmargin=-97.1063pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -715,11 +715,13 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count158
-<images/teal_sun.png, id=20, 4111.36pt x 4111.36pt>
-File: images/teal_sun.png Graphic file (type png)
- <use images/teal_sun.png>
-Package pdftex.def Info: images/teal_sun.png used on input line 60.
-(pdftex.def)             Requested size: 1088.0189pt x 1087.99962pt.
+<images/background.jpg, id=20, 4946.48pt x 3292.3pt>
+File: images/background.jpg Graphic file (type jpg)
+
+<use images/background.jpg>
+Package pdftex.def Info: images/background.jpg used on input line 60.
+(pdftex.def)             Requested size: 1325.19095pt x 882.00027pt.
+Missing character: There is no ; in font nullfont!
 
 <images/sselpatch_transbg.png, id=21, 678.535pt x 452.69125pt>
 File: images/sselpatch_transbg.png Graphic file (type png)
@@ -772,10 +774,14 @@ File: images/workbench.png Graphic file (type png)
 <use images/workbench.png>
 Package pdftex.def Info: images/workbench.png used on input line 98.
 (pdftex.def)             Requested size: 1925.18782pt x 1031.85248pt.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
 
+Underfull \hbox (badness 1028) in paragraph at lines 98--98
+\T1/cmr/m/n/10 vanced tools avail-able in MySQL Work-bench.
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
 <images/SPQ_Database_ER.png, id=26, 1283.79625pt x 645.41125pt>
 File: images/SPQ_Database_ER.png Graphic file (type png)
 
@@ -785,11 +791,18 @@ Package pdftex.def Info: images/SPQ_Database_ER.png used on input line 116.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+
+<images/groundstation.JPG, id=27, 4625.28pt x 3083.52pt>
+File: images/groundstation.JPG Graphic file (type jpg)
+
+<use images/groundstation.JPG>
+Package pdftex.def Info: images/groundstation.JPG used on input line 128.
+(pdftex.def)             Requested size: 4625.26878pt x 3083.51251pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 
  []
 
@@ -797,7 +810,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
 
  []
 
@@ -806,31 +819,29 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 [2
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/teal_sun.png (PNG
- copy)> <./images/sselpatch_transbg.png> <./images/msgc_2009_transbg.png> <./im
-ages/workbench.png> <./images/SPQ_Database_ER.png>] (./Database_Nevin.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/background.jpg> <
+./images/sselpatch_transbg.png> <./images/msgc_2009_transbg.png> <./images/work
+bench.png> <./images/SPQ_Database_ER.png> <./images/groundstation.JPG>]
+(./Database_Nevin.aux) ) 
 Here is how much of TeX's memory you used:
- 15512 strings out of 495028
- 289516 string characters out of 6181498
- 472437 words of memory out of 5000000
- 18383 multiletter control sequences out of 15000+600000
- 15515 words of font info for 47 fonts, out of 8000000 for 9000
+ 15522 strings out of 495028
+ 289662 string characters out of 6181498
+ 469747 words of memory out of 5000000
+ 18386 multiletter control sequences out of 15000+600000
+ 14829 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,18n,70p,651b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
- </
-home/girish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0800.600pk> </home/gi
-rish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/girish185
-/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/girish185/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/girish185/.texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/girish185/.texmf-var/fonts/pk/
-ljfour/jknappen/ec/ecbi1440.600pk> </home/girish185/.texmf-var/fonts/pk/ljfour/
-jknappen/ec/ecbx1440.600pk> </home/girish185/.texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecbx2488.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb>
-Output written on Database_Nevin.pdf (1 page, 51418311 bytes).
+ </home/girish185/.texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecrm0800.600pk> </home/girish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1
+000.600pk> </home/girish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600
+pk> </home/girish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1440.600pk> </h
+ome/girish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/gir
+ish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Database_Nevin.pdf (1 page, 9719267 bytes).
 PDF statistics:
- 297 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 251 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 140 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

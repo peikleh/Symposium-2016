@@ -1,4 +1,4 @@
-\documentclass[landscape,paperwidth=43truein,paperheight=33.1truein,fontscale=0.3]{baposter}
+\documentclass[landscape,a0paper, fontscale=.285]{baposter}
 \usepackage{graphics}
 \usepackage{color}
 \usepackage{multicol}
@@ -17,7 +17,7 @@
 \background{
       \begin{tikzpicture}[remember picture,overlay]%
       \draw (current page.center)+(-0em,-10em) node[anchor=center]
-      {\includegraphics[width=1.2\textwidth]{images/teal_sun.png}};
+      {\includegraphics[width=1.41\textwidth]{images/background.jpg}};;
       \end{tikzpicture}%
       }
 
@@ -80,8 +80,8 @@ For the database to be useful it must fulfill the following requirements
 \begin{itemize}[leftmargin=*, noitemsep]
 	\item Map SPQ files to individual processed SPQ requests.
 	\item Map processed SPQ's to individual satellite passes and keep track of what data has been down linked.
-	\item Checkout feature so two ground stations can collaborate on down linking data
-	\item Must handle other types of data requests like context requests.
+	\item Checkout feature so two ground stations can collaborate on down linking data.
+	\item Must handle multiple data types that are down linked.
 	\item Must interface with ground station for ease of use.
 
 \end{itemize}
@@ -115,17 +115,16 @@ A second draft of the database is currently underway using MySQL Workbench. This
 \end{tabular}
 }
 
-\headerbox{Glossary}{name=gloss,column=3,below=hardware}{ 
+\headerbox{Future Work}{name=gloss,column=3,below=hardware}{ 
 
 %\begin{itemize} \itemsep1pt \parskip0pt \parsep0pt \itemindent=-0.5cm
 \begin{itemize}[leftmargin=*, noitemsep]
-\item \textbf{EUV:} Extreme Ultraviolet electromagnetic radiation.
-\item \textbf{VDX:} Model name of flight computer board.
-\item \textbf{FPGA:} Field-Programmable Gate Array. 
-\item \textbf{ROE:} Read-Out Electronics. Hardware that captures science data from cameras.
-\item \textbf{DMA:} Direct Memory Access. Protocol for copying data without involving the computer's processor.
-\item \textbf{HLP:} Housekeeping Link Protocol. Packets transmitted from the ground that can control the instrument.
+	\item Load data base onto servers.
+	\item Write a script that interfaces the database with the ground station
+	\item Configure the ground station and database so that down linking of data is automated.
 \end{itemize}
+\resizebox{\columnwidth}{!}{\includegraphics{images/groundstation}}  \\
+\footnotesize{SSEL ground station}
 }
 
 
@@ -141,9 +140,9 @@ This work is supported by the NASA Sounding Rocket Program, Grant NNX14AK71G.
 
 \headerbox{References}{name=refs,column=3,below=ack,above=bottom}{\footnotesize
 \begin{minipage}{\columnwidth}
-[0] Fox, Kankelborg and Thomas, 2010 \textit{Astrophys.J.}, 719:1132-1143
+[0] Background courtesy of NASA Visible Earth
 
-[1] Background image courtesy of the NASA Solar Dynamics Observatory
+
  
 \end{minipage}
 \normalsize}
