@@ -52,7 +52,7 @@ background = user,
 }
 {%Author
   \color{red} \textbf{Nevin Leh \\
-   \textit{Physics Department, Montana State University, Bozeman, MT 59717}\\
+   \textit{SSEL, Montana State University, Bozeman, MT 59717}\\
    nevinleh@gmail.com}\\
 }
 {%Logo
@@ -65,14 +65,14 @@ background = user,
 
 \headerbox{Abstract}{name=abstract,column=0}{
  The process of creating a database to process and manage data requests for the FIREBIRD-II (Focused Investigations of Relativistic Electron Burst Intensity, Range, and Dynamics) satellites has been underway for some time. The structure of such a database relies on the way data is stored and down linked. There have been several iterations of this database as new tools and information have become available and the current iteration contains several new features and bug fixes. The newest version is still under development and still needs some features such as control scripts to be used as a fully functional database system. 
-  \vspace{0.33cm}
+ 
 }
 
 
 
 \headerbox{Data Request Indroduction}{name=interface,column=1}{
 Part of the FIREBIRD-II mission is down linking data from the satellites on a daily basis. One constraint is that the rate at which the memory on board fills up is faster than the rate at which data can be down linked. One side effect of this is that all of the data cannot be down linked. Therefore, certain chunks of data are chosen in reference to times that are deemed "interesting". These requests go into a SPQ(Science Priority Queue) where they await processing and down linking. Before the data can be down linked the dates and times in the SPQ have to be converted to a range of memory addresses to be down linked.
- \vspace{0.33cm}
+ 
 }
 
 \headerbox{Database Requirements}{name=requirements, column=2}{
@@ -83,9 +83,8 @@ For the database to be useful it must fulfill the following requirements
 	\item Checkout feature so two ground stations can collaborate on down linking data.
 	\item Must handle multiple data types that are down linked.
 	\item Must interface with ground station for ease of use.
-
 \end{itemize}
-\vspace{0.33cm}
+
 }
 
 
@@ -119,11 +118,11 @@ A second draft of the database is currently underway using MySQL Workbench. This
 
 %\begin{itemize} \itemsep1pt \parskip0pt \parsep0pt \itemindent=-0.5cm
 \begin{itemize}[leftmargin=*, noitemsep]
-	\item Load data base onto servers.
+	\item Load database onto servers.
 	\item Write a script that interfaces the database with the ground station
-	\item Configure the ground station and database so that down linking of data is automated.
+	\item Configure the ground station and database so that automated down linking is possible.
 \end{itemize}
-\resizebox{\columnwidth}{!}{\includegraphics{images/groundstation}}  \\
+\resizebox{\columnwidth}{!}{\includegraphics{images/groundstation2}}  \\
 \footnotesize{SSEL ground station}
 }
 
@@ -131,21 +130,13 @@ A second draft of the database is currently underway using MySQL Workbench. This
 \headerbox{Acknowledgment}{name=ack,column=3,below=gloss}{ \footnotesize
 
 \begin{minipage}{\columnwidth}
-This work is supported by the NASA Sounding Rocket Program, Grant NNX14AK71G.
+This work is supported through the MSGC. \\
+Background image from NASA Visible Earth.
  
 \end{minipage}
 \normalsize
 }
 
-
-\headerbox{References}{name=refs,column=3,below=ack,above=bottom}{\footnotesize
-\begin{minipage}{\columnwidth}
-[0] Background courtesy of NASA Visible Earth
-
-
- 
-\end{minipage}
-\normalsize}
 
 \end{poster}
 

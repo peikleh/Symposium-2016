@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.3)  14 APR 2016 09:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.3)  14 APR 2016 10:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -757,13 +757,13 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 89.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 88.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -772,10 +772,10 @@ Missing character: There is no ; in font nullfont!
 File: images/workbench.png Graphic file (type png)
 
 <use images/workbench.png>
-Package pdftex.def Info: images/workbench.png used on input line 98.
+Package pdftex.def Info: images/workbench.png used on input line 97.
 (pdftex.def)             Requested size: 1925.18782pt x 1031.85248pt.
 
-Underfull \hbox (badness 1028) in paragraph at lines 98--98
+Underfull \hbox (badness 1028) in paragraph at lines 97--97
 \T1/cmr/m/n/10 vanced tools avail-able in MySQL Work-bench.
  []
 
@@ -786,18 +786,18 @@ Missing character: There is no ; in font nullfont!
 File: images/SPQ_Database_ER.png Graphic file (type png)
 
 <use images/SPQ_Database_ER.png>
-Package pdftex.def Info: images/SPQ_Database_ER.png used on input line 116.
+Package pdftex.def Info: images/SPQ_Database_ER.png used on input line 115.
 (pdftex.def)             Requested size: 1283.79312pt x 645.40968pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-<images/groundstation.JPG, id=27, 4625.28pt x 3083.52pt>
-File: images/groundstation.JPG Graphic file (type jpg)
+<images/groundstation2.JPG, id=27, 744.8628pt x 573.342pt>
+File: images/groundstation2.JPG Graphic file (type jpg)
 
-<use images/groundstation.JPG>
-Package pdftex.def Info: images/groundstation.JPG used on input line 128.
-(pdftex.def)             Requested size: 4625.26878pt x 3083.51251pt.
+<use images/groundstation2.JPG>
+Package pdftex.def Info: images/groundstation2.JPG used on input line 127.
+(pdftex.def)             Requested size: 744.86098pt x 573.34059pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -809,28 +809,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--138
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-
- []
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
 [2
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/background.jpg> <
 ./images/sselpatch_transbg.png> <./images/msgc_2009_transbg.png> <./images/work
-bench.png> <./images/SPQ_Database_ER.png> <./images/groundstation.JPG>]
+bench.png> <./images/SPQ_Database_ER.png> <./images/groundstation2.JPG>]
 (./Database_Nevin.aux) ) 
 Here is how much of TeX's memory you used:
- 15522 strings out of 495028
- 289662 string characters out of 6181498
- 469747 words of memory out of 5000000
- 18386 multiletter control sequences out of 15000+600000
+ 15449 strings out of 495028
+ 288248 string characters out of 6181498
+ 465698 words of memory out of 5000000
+ 18313 multiletter control sequences out of 15000+600000
  14829 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,18n,70p,651b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,18n,70p,651b,946s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/girish185/.texmf-var/fonts/pk/ljfour/jknappen/e
 c/ecrm0800.600pk> </home/girish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1
 000.600pk> </home/girish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600
@@ -838,9 +830,9 @@ pk> </home/girish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1440.600pk> </h
 ome/girish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/gir
 ish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Database_Nevin.pdf (1 page, 9719267 bytes).
+Output written on Database_Nevin.pdf (1 page, 6852181 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
+ 238 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
