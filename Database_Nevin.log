@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.3)  13 APR 2016 12:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.3)  13 APR 2016 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -582,7 +582,31 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks32
 \enit@inbox=\box70
 \enitdp@description=\count143
-) (./Database_Nevin.aux)
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count144
+\lst@gtempboxa=\box71
+\lst@token=\toks33
+\lst@length=\count145
+\lst@currlwidth=\dimen185
+\lst@column=\count146
+\lst@pos=\count147
+\lst@lostspace=\dimen186
+\lst@width=\dimen187
+\lst@newlines=\count148
+\lst@lineno=\count149
+\lst@maxwidth=\dimen188
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count150
+\lst@skipnumbers=\count151
+\lst@framebox=\box72
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+(./Database_Nevin.aux)
 \openout1 = `Database_Nevin.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -600,17 +624,17 @@ LaTeX Font Info:    ... okay on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count144
-\scratchdimen=\dimen185
-\scratchbox=\box71
-\nofMPsegments=\count145
-\nofMParguments=\count146
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count147
-\MPscratchDim=\dimen186
-\MPnumerator=\count148
-\makeMPintoPDFobject=\count149
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count152
+\scratchdimen=\dimen189
+\scratchbox=\box73
+\nofMPsegments=\count153
+\nofMParguments=\count154
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count155
+\MPscratchDim=\dimen190
+\MPnumerator=\count156
+\makeMPintoPDFobject=\count157
+\everyMPtoPDFconversion=\toks35
 ) ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -690,6 +714,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\c@lstlisting=\count158
 <images/teal_sun.png, id=20, 4111.36pt x 4111.36pt>
 File: images/teal_sun.png Graphic file (type png)
  <use images/teal_sun.png>
@@ -727,104 +752,44 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-<images/MOSESinFlight.png, id=25, 1300.86pt x 3701.83pt>
-File: images/MOSESinFlight.png Graphic file (type png)
-
-<use images/MOSESinFlight.png>
-Package pdftex.def Info: images/MOSESinFlight.png used on input line 82.
-(pdftex.def)             Requested size: 1300.85684pt x 3701.82101pt.
-
-Underfull \hbox (badness 1052) in paragraph at lines 82--82
-\T1/cmr/m/n/10 ary 8, 2006 on a NASA sound-ing
- []
-
-
-Overfull \hbox (3.08438pt too wide) in paragraph at lines 82--82
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-
- []
-
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-<images/fpga.png, id=26, 970.62625pt x 983.675pt>
-File: images/fpga.png Graphic file (type png)
- <use images/fpga.png>
-Package pdftex.def Info: images/fpga.png used on input line 102.
-(pdftex.def)             Requested size: 970.62389pt x 983.6726pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[][]
- []
-
-
-Underfull \hbox (badness 4378) in paragraph at lines 102--102
-\T1/cmr/m/n/8 Block di-a-gram of ma-jor hard-ware com-po-nents
- []
-
-
-Overfull \hbox (2.08139pt too wide) in paragraph at lines 102--102
-[][] 
- []
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-<images/vdx104.jpg, id=27, 582.175pt x 602.25pt>
-File: images/vdx104.jpg Graphic file (type jpg)
- <use images/vdx104.jpg>
-Package pdftex.def Info: images/vdx104.jpg used on input line 119.
-(pdftex.def)             Requested size: 582.17358pt x 602.24852pt.
-File: images/fpga.png Graphic file (type png)
-
-<use images/fpga.png>
-Package pdftex.def Info: images/fpga.png used on input line 119.
-(pdftex.def)             Requested size: 970.62389pt x 983.6726pt.
-
-Overfull \hbox (7.2688pt too wide) in paragraph at lines 119--119
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
-
- []
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-File: images/fpga.png Graphic file (type png)
-<use images/fpga.png>
-Package pdftex.def Info: images/fpga.png used on input line 135.
-(pdftex.def)             Requested size: 970.62389pt x 983.6726pt.
-
-Overfull \hbox (1.64424pt too wide) in paragraph at lines 135--135
-\T1/cmr/m/n/10 synchronization 
- []
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 148.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 148.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+<images/workbench.png, id=25, 1925.1925pt x 1031.855pt>
+File: images/workbench.png Graphic file (type png)
+
+<use images/workbench.png>
+Package pdftex.def Info: images/workbench.png used on input line 98.
+(pdftex.def)             Requested size: 1925.18782pt x 1031.85248pt.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+<images/SPQ_Database_ER.png, id=26, 1283.79625pt x 645.41125pt>
+File: images/SPQ_Database_ER.png Graphic file (type png)
+
+<use images/SPQ_Database_ER.png>
+Package pdftex.def Info: images/SPQ_Database_ER.png used on input line 116.
+(pdftex.def)             Requested size: 1283.79312pt x 645.40968pt.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 
  []
 
@@ -832,7 +797,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--168
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
 
  []
 
@@ -843,30 +808,29 @@ Missing character: There is no ; in font nullfont!
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/teal_sun.png (PNG
  copy)> <./images/sselpatch_transbg.png> <./images/msgc_2009_transbg.png> <./im
-ages/MOSESinFlight.png> <./images/fpga.png> <./images/vdx104.jpg>]
-(./Database_Nevin.aux) ) 
+ages/workbench.png> <./images/SPQ_Database_ER.png>] (./Database_Nevin.aux) ) 
 Here is how much of TeX's memory you used:
- 14411 strings out of 495028
- 273555 string characters out of 6181498
- 457704 words of memory out of 5000000
- 17291 multiletter control sequences out of 15000+600000
- 16201 words of font info for 48 fonts, out of 8000000 for 9000
+ 15512 strings out of 495028
+ 289516 string characters out of 6181498
+ 472437 words of memory out of 5000000
+ 18383 multiletter control sequences out of 15000+600000
+ 15515 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,18n,70p,651b,944s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/girish185/.texmf-var/fonts/pk/ljfour/jknappen/e
-c/ecti0800.600pk> </home/girish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0
-800.600pk> </home/girish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600
-pk> </home/girish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </h
-ome/girish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/gir
-ish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/girish185/
-.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1440.600pk> </home/girish185/.texmf-
-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/girish185/.texmf-var/fon
-ts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Database_Nevin.pdf (1 page, 60326473 bytes).
+ 63i,18n,70p,651b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </
+home/girish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0800.600pk> </home/gi
+rish185/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/girish185
+/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/girish185/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/girish185/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/girish185/.texmf-var/fonts/pk/
+ljfour/jknappen/ec/ecbi1440.600pk> </home/girish185/.texmf-var/fonts/pk/ljfour/
+jknappen/ec/ecbx1440.600pk> </home/girish185/.texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecbx2488.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb>
+Output written on Database_Nevin.pdf (1 page, 51418311 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 297 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 words of extra memory for PDF output out of 10000 (max. 10000000)
 

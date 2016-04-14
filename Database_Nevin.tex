@@ -7,7 +7,7 @@
 \usepackage{lipsum}
 \usepackage{graphicx}
 \usepackage{enumitem}
-
+\usepackage{listings}
 \pdfcompresslevel=1
 
 \begin{document}
@@ -68,66 +68,47 @@ background = user,
   \vspace{0.33cm}
 }
 
-\headerbox{Design Challenges}{name=launch,column=1}{
-\begin{tabular}{ll}
- \begin{minipage}{0.10\columnwidth}
-      \resizebox{\columnwidth}{!}{\includegraphics{images/MOSESinFlight.png}}
-   \end{minipage} &
-   \begin{minipage}{0.80\columnwidth}
-      \textit{MOSES} was 
-      first launched on February 8, 2006 on a NASA sounding rocket. The next launch will include updated optics and electronics and is scheduled for summer 2015.
-   \end{minipage} 
-  
-\end{tabular}
+
+
+\headerbox{Data Request Indroduction}{name=interface,column=1}{
+Part of the FIREBIRD-II mission is down linking data from the satellites on a daily basis. One constraint is that the rate at which the memory on board fills up is faster than the rate at which data can be down linked. One side effect of this is that all of the data cannot be down linked. Therefore, certain chunks of data are chosen in reference to times that are deemed "interesting". These requests go into a SPQ(Science Priority Queue) where they await processing and down linking. Before the data can be down linked the dates and times in the SPQ have to be converted to a range of memory addresses to be down linked.
+ \vspace{0.33cm}
 }
 
-\headerbox{Design Challenges}{name=challenges,column=2}{
-	The sounding rocket trajectory only provides approximately 5 minutes of data for the instrument to capture. To acquire data in real time and minimize risk to the experiment, the flight software must be efficient and use minimal resources. \vspace{.21cm}
+\headerbox{Database Requirements}{name=requirements, column=2}{
+For the database to be useful it must fulfill the following requirements
+\begin{itemize}[leftmargin=*, noitemsep]
+	\item Map SPQ files to individual processed SPQ requests.
+	\item Map processed SPQ's to individual satellite passes and keep track of what data has been down linked.
+	\item Checkout feature so two ground stations can collaborate on down linking data
+	\item Must handle other types of data requests like context requests.
+	\item Must interface with ground station for ease of use.
+
+\end{itemize}
+\vspace{0.33cm}
 }
 
-\headerbox{Data Interface}{name=interface,column=1,span=2, below=launch}{
-
-\begin{tabular}{ll}
-  \begin{minipage}{0.50\columnwidth}
-The new flight computer is designed as a drop-in replacement for the old flight computer, so it must interface with the instrument in the same manner. The primary means of starting and stopping the experiment are predefined \textbf{Timers}. Science data is acquired from the \textbf{ROE} using the \textbf{FPGA}. It is then transferred to the \textbf{VDX} using DMA and written to disk. For redundancy, the data is transmitted to earth using the \textbf{Synclink USB} interface and a 10 Mbit/s link.
-
-  \end{minipage}&
-  \begin{minipage}{0.45\columnwidth}
-      \resizebox{\columnwidth}{!}{\includegraphics{images/fpga.png}}
-      \footnotesize{Block diagram of major hardware components managed by flight software}  
-\end{minipage}  
-\end{tabular}
 
 
-}
-\headerbox{Hardware Solutions}{name=hardware,column=3}{
-The VDX104+ running a Ubuntu GNU/Linux operating system is the flight computer for the instrument. It provides ethernet and RS-232 serial ports for communication, and PCI-104 bus for interfacing with the FPGA. The flight software designed by our team runs on this device.
-
-\begin{tabular}{ll}
-	\begin{minipage}{0.46\columnwidth}
-  		\resizebox{\columnwidth}{!}{\includegraphics{images/vdx104}}  \\
-  		\footnotesize{VDX104 flight computer}
-	\end{minipage}&
-
-  \begin{minipage}{0.46\columnwidth}
-		\resizebox{\columnwidth}{!}{\includegraphics{images/fpga}} \\
-		\footnotesize{ Virtex5 FPGA}
-  \end{minipage}
-\end{tabular} \\ \\
-The Virtex5 FPGA captures the 32 Mbit/s parallel data produced by the experiment and various GPIO. It then transfers the data through DMA to the flight computer for processing.
+\headerbox{Recent Work}{name=hardware,column=3}{
+A second draft of the database is currently underway using MySQL Workbench. This second draft will have the benefit of being more robust and easier to update because of the advanced tools available in MySQL Workbench.
+\resizebox{\columnwidth}{!}{\includegraphics{images/workbench}}  \\
+\footnotesize{MySQL Workbench screenshot of incomplete database}
 
 }
 
-\headerbox{Software Architecture}{name=arch,column=0,span=3, below=interface}{
+
+
+\headerbox{First Draft}{name=arch,column=0,span=3, below=abstract}{
 \begin{tabular}{ll}
 	\begin{minipage}{0.85\columnwidth}
-      \resizebox{\columnwidth}{!}{\includegraphics{images/fpga.png}}
-      \footnotesize{Diagram of major software modules}  
+      \resizebox{\columnwidth}{!}{\includegraphics{images/SPQ_Database_ER.png}}
+      \footnotesize{ER diagram of first draft}  
 	\end{minipage}&
 
-  \begin{minipage}{0.10\columnwidth}
+  \begin{minipage}{0.11\columnwidth}
   	\raggedright
-     The flight software relies on a threaded architecture to reliably respond to a variety of inputs, all while the processor is actively capturing data. Several thread-synchronization techniques have been utilized, including mutex-protected queues, Linux Signals, and semaphores. 
+     For the first attempt an ER diagram was constructed to visualize the database. Each box indicates a table and each circle represents an entity. The connections define how each table is related. The database was then translated by hand into a MYSQL database. This approach was good for creating a test database but more complex tools were needed to design a more robust database.
 
   \end{minipage}
     
